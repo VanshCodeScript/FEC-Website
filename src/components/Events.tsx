@@ -20,14 +20,6 @@ const events = [
     image: "/events/image.png"
   },
   {
-    title: "Finance Career Session with Maurya Hanspal",
-    date: "February 25th, 2025",
-    time: "3:45 PM - 5:00 PM",
-    location: "Room 008, SPIT",
-    description: "Join us for an insightful session with Maurya Hanspal, Asset Management Specialist at JPMorgan Chase. Learn about navigating the finance industry from a professional with 6+ years of experience, certified valuation trainer, and finance coach.",
-    image: "/events/maurya-hanspal.png"
-  },
-  {
     title: "Financial Analysis",
     date: "Every Month",
     time: "No time is specified for Learning 😌",
