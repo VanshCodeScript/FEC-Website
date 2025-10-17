@@ -224,7 +224,7 @@ export const Events = () => {
                           className="w-full py-4 bg-gradient-to-r from-yellow-500 to-amber-600 text-black font-semibold rounded-xl hover:from-yellow-400 hover:to-amber-500 transition-all duration-300 border border-yellow-400/20 cursor-not-allowed opacity-70"
                           disabled
                         >
-                          Register for Event
+                          Event Overview
                         </motion.button>
                       </motion.div>
                     </div>
