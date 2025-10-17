@@ -55,8 +55,8 @@ export const About = () => {
         }, stepDuration);
       };
 
-      animateCounter(0, 20, (value) => setCounters(prev => ({ ...prev, companies: value })));
-      animateCounter(0, 50, (value) => setCounters(prev => ({ ...prev, reports: value })));
+      animateCounter(0, 7, (value) => setCounters(prev => ({ ...prev, companies: value })));
+      animateCounter(0, 20, (value) => setCounters(prev => ({ ...prev, reports: value })));
       animateCounter(0, 80, (value) => setCounters(prev => ({ ...prev, satisfaction: value })));
     }
   }, [isInView]);
