@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 0%;
+    --foreground: 51 100% 50%;
+
+    --card: 0 0% 5%;
+    --card-foreground: 51 100% 50%;
+
+    --popover: 0 0% 3%;
+    --popover-foreground: 51 100% 50%;
+
+    --primary: 51 100% 50%;
+    --primary-foreground: 0 0% 0%;
+
+    --secondary: 46 100% 50%;
+    --secondary-foreground: 0 0% 0%;
+
+    --muted: 0 0% 15%;
+    --muted-foreground: 51 80% 70%;
+
+    --accent: 51 100% 50%;
+    --accent-foreground: 0 0% 0%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 51 100% 50%;
+
+    --border: 51 100% 20%;
+    --input: 0 0% 10%;
+    --ring: 51 100% 50%;
+
+    --radius: 0.75rem;
+    
+    --gold: 51 100% 50%;
+    --gold-dark: 46 100% 50%;
+    --black-pure: 0 0% 0%;
+    --black-card: 0 0% 5%;
+    
+    --glow-gold: 0 0 20px hsl(51 100% 50% / 0.5);
+    --glow-gold-strong: 0 0 30px hsl(51 100% 50% / 0.7);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 0 0% 0%;
+    --foreground: 51 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-['Poppins',sans-serif];
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-['Montserrat',sans-serif];
+  }
+}
+
+@layer utilities {
+  .gold-glow {
+    box-shadow: var(--glow-gold);
+  }
+  
+  .gold-glow-strong {
+    box-shadow: var(--glow-gold-strong);
+  }
+  
+  .text-gradient-gold {
+    @apply bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent;
+  }
+  
+  .bg-gradient-gold {
+    @apply bg-gradient-to-br from-primary via-secondary to-primary;
+  }
+  
+  .border-gradient-gold {
+    border-image: linear-gradient(135deg, hsl(var(--gold)), hsl(var(--gold-dark))) 1;
+  }
+}
