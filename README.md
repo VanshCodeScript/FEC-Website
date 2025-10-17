@@ -1,78 +1,67 @@
-<<<<<<< HEAD
-# FEC-Website
-website for finance and economics club of SPIT
-=======
-# Welcome to your Lovable project
+FEC SPIT - Finance & Economics Club Website
 
-## Project info
 
-**URL**: https://lovable.dev/projects/bdbf5767-830f-47d5-875d-a3198a5e55e6
+A modern, immersive website for the Finance and Economics Club at Sardar Patel Institute of Technology, Mumbai. Featuring stunning visual effects, smooth animations, and an engaging user experience.
 
-## How can I edit this code?
+🌟 Features
+✨ Visual Experience
+Immersive Tunnel Animation: Scroll-triggered 3D tunnel effect for events section
 
-There are several ways of editing your application.
+Gold Gradient Theme: Professional finance-themed color scheme
 
-**Use Lovable**
+Smooth Animations: Framer Motion powered transitions and micro-interactions
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/bdbf5767-830f-47d5-875d-a3198a5e55e6) and start prompting.
+Responsive Design: Optimized for all devices and screen sizes
 
-Changes made via Lovable will be committed automatically to this repo.
+Glass Morphism: Modern backdrop blur effects and frosted glass elements
 
-**Use your preferred IDE**
+🎯 Core Sections
+Hero Section: Compelling introduction with call-to-action
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+About FEC: Club mission, vision, and objectives
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Market Reports: Financial insights and analysis
 
-Follow these steps:
+Events Tunnel: Immersive event browsing experience
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Industry Partners: Corporate collaborations and sponsors
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Team Members: Club leadership and core team
 
-# Step 3: Install the necessary dependencies.
-npm i
+Contact Information: Easy communication channels
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+🚀 Technical Highlights
+Modern React 18 with TypeScript for type safety
 
-**Edit a file directly in GitHub**
+Framer Motion for advanced animations
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Tailwind CSS for utility-first styling
 
-**Use GitHub Codespaces**
+Lucide React for beautiful icons
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Custom UI Components with shadcn/ui
 
-## What technologies are used for this project?
+🛠 Tech Stack
+Frontend Framework:
 
-This project is built with:
+React 18.2+
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+TypeScript
 
-## How can I deploy this project?
+Vite (Build Tool)
 
-Simply open [Lovable](https://lovable.dev/projects/bdbf5767-830f-47d5-875d-a3198a5e55e6) and click on Share -> Publish.
+Styling & UI:
 
-## Can I connect a custom domain to my Lovable project?
+Tailwind CSS
 
-Yes, you can!
+Framer Motion
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Lucide React Icons
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
->>>>>>> 236898f (Initial commit)
+Custom CSS Animations
+
+Components:
+
+shadcn/ui component library
+
+Custom animated components
